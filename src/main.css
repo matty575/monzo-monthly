@@ -1,0 +1,54 @@
+html, body {
+  color: white;
+  background-color: #14233c;
+  font-size: 8vmin;
+  font-family: MaisonNeue, HelveticaNeue, Helvetica Neue, Helvetica, Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 1em;
+  width: 5em;
+  background: url('/monzo-logo.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+p {
+  font-size: 0.5em;
+}
+
+p.transtitle {
+  font-size: 0.4em;
+}
+
+.reduced {
+  font-size: 0.3em;
+}
+
+.transactions {
+  font-size: 0.25em;
+}
+
+button {
+  color: white;
+  background-color: #00a4db;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.4em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008BC2;
+}

@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+  .container
+    .logo
+    p.balance Your balance is #{balance}
+    div.reduced Next Pay Date is #{newPayDate}
+    div.reduced Weekly budget is #{weekly}
+    div.reduced Daily budget is #{daily}
+    p.transtitle Last 3 Transactions
+    each val in transactions
+        div.transactions= val
