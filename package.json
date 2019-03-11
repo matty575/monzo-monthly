@@ -45,8 +45,5 @@
     "build": "npm run build:css && npm run build:sw",
     "predeploy": "npm run build && npm test",
     "deploy": "eb deploy"
-  },
-  "engines": {
-    "node": "10.x"
   }
 }
